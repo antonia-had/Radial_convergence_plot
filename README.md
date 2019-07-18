@@ -1,7 +1,7 @@
 # Radial_convergence_plot
 Script to produce radial convergence plots (or chord plots) for Sobol sensitivity analysis results or other purposes
 
-This script produces two radial convergence graphs (aka chord graphs) for Sobol Sensitivity Analysis results in a dictionary format. It can directly work with Sobol results produced by SALib (https://github.com/SALib/SALib) and Rhodium (https://github.com/Project-Platypus/Rhodium). It will produce one graph with straight lines and one with curved lines (parabolas).
+This script produces two radial convergence graphs (aka chord graphs) for Sobol Sensitivity Analysis results in a dictionary format. It can directly work with Sobol results produced by Rhodium (https://github.com/Project-Platypus/Rhodium), as well as Sobol results using SALib (https://github.com/SALib/SALib), after conversion as shown in salib_example.py. It will produce one graph with straight lines and one with curved lines (parabolas).
 Written by Antonia Hadjimichael (https://github.com/antonia-had) based off code by Enrico Ubaldi (https://github.com/ubi15/).
 The script was written and tested in Python 3.6 and 3.7.
 
